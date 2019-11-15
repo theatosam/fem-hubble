@@ -78,4 +78,21 @@ input:nth-child(5) {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
+  padding: 25px 15px;
+  cursor: pointer;
+}
+
+::placeholder {
+  font-weight: 700;
+}
+
+#submitForm p {
+  color: #c5c5c5;
+  font-size: 0.9em;
+  padding-top: 15px;
+}
+
+#submitForm span {
+  color: #e91a16;
+  font-weight: 700;
 }
