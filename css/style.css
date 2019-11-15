@@ -4,16 +4,78 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   width: 100%;
   height: auto;
+  padding: 50px 20px;
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   background-color: hsl(0, 100%, 74%);
   background-image: url('../img/bg-intro-mobile.png');
+}
+
+/* Section A */
+#section-a {
+  padding-bottom: 50px;
+}
+
+#section-a h1 {
+  font-size: 200%;
+  line-height: 1.3em;
+}
+
+#headWrapper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Section B */
+#free {
+  background-color: hsl(248, 32%, 49%);
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#pWrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#pWrapper span {
+  font-weight: 700;
+}
+
+#submitForm {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+input:nth-child(5) {
+  margin-bottom: 0;
+  border: none;
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
 }
