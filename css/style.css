@@ -78,7 +78,7 @@ input:nth-child(5) {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 25px 15px;
+  padding: 30px 20px;
   cursor: pointer;
 }
 
@@ -90,6 +90,9 @@ input:nth-child(5) {
   color: #c5c5c5;
   font-size: 0.9em;
   padding-top: 15px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
 }
 
 #submitForm span {
