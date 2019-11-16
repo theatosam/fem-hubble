@@ -107,3 +107,15 @@ input:nth-child(5) {
   color: #e91a16;
   font-weight: 700;
 }
+
+footer {
+  display: flex;
+  font-size: 0.9em;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footerFlex {
+  width: 50%;
+  padding: 0 10px;
+}
