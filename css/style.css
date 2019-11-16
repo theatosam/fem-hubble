@@ -92,6 +92,11 @@ input:nth-child(5) {
   font-weight: 700;
   padding: 30px 20px;
   cursor: pointer;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+input:nth-child(5):hover {
+  background-color: #46cf94;
 }
 
 ::placeholder {
@@ -111,6 +116,8 @@ input:nth-child(5) {
   color: #e91a16;
   font-weight: 700;
 }
+
+/* Footer */
 
 footer {
   width: 100%;
