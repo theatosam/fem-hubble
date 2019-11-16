@@ -10,7 +10,6 @@
 body {
   width: 100%;
   height: auto;
-  padding: 50px 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -22,9 +21,13 @@ body {
   background-image: url('../img/bg-intro-mobile.png');
 }
 
+main {
+  padding: 70px 20px;
+}
+
 /* Section A */
 #section-a {
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
 
 #section-a h1 {
@@ -33,14 +36,15 @@ body {
 }
 
 #section-a p {
-  width: 70%;
+  font-size: 120%;
+  width: 85%;
   margin: 0 auto;
 }
 
 #headWrapper {
   width: 70%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 /* Section B */
@@ -66,7 +70,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 input {
@@ -109,13 +113,26 @@ input:nth-child(5) {
 }
 
 footer {
+  width: 100%;
+  height: auto;
+  padding: 30px 20px;
   display: flex;
   font-size: 0.9em;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top: 5px solid hsl(248, 32%, 49%);
 }
 
 .footerFlex {
   width: 50%;
-  padding: 0 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: hsl(248, 32%, 49%);
 }
