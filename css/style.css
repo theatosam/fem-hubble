@@ -32,6 +32,11 @@ body {
   line-height: 1.3em;
 }
 
+#section-a p {
+  width: 70%;
+  margin: 0 auto;
+}
+
 #headWrapper {
   width: 70%;
   margin: 0 auto;
