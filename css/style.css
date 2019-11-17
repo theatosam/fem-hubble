@@ -11,8 +11,6 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
@@ -23,6 +21,8 @@ body {
 
 main {
   padding: 70px 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Section A */
@@ -117,6 +117,7 @@ input:nth-child(5):hover {
   color: hsl(0, 100%, 74%);
   font-weight: 700;
 }
+/* Main Ends */
 
 /* Footer */
 
@@ -145,53 +146,6 @@ footer a:hover {
   color: hsl(248, 32%, 49%);
 }
 
- /* Phablet */
-@media screen and (min-width: 480px) {
- /*Section A */
- #section-a p {
-  font-size: 120%;
-  width: 85%;
-  margin: 0 auto;
-}
-
-#headWrapper {
-  width: 70%;
-  margin: 0 auto;
-  padding: 25px 0;
-}
-
- /* Section B */
-  #free {
-    background-color: hsl(248, 32%, 49%);
-    padding: 20px 50px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 10px rgba(0, 0, 0, 0.2);
-  }
-
-  #pWrapper {
-    width: 60%;
-    margin: 0 auto;
-  }
-  
-  #pWrapper span {
-    font-weight: 700;
-  }
-  
-  #submitForm {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 70px;
-  }
-
-  #submitForm p {
-    color: #c5c5c5;
-    font-size: 0.9em;
-    padding-top: 15px;
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-  }
+/*Desktop*/
+@media screen and (min-width: 1025px) {
 }
