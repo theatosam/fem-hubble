@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  padding: 70px 20px;
+  padding: 70px 25px;
 }
 
 /* Section A */
@@ -89,8 +89,9 @@ input:nth-child(5) {
   background-color: hsl(154, 59%, 51%);
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
   font-weight: 700;
-  padding: 30px 20px;
+  padding: 30px 0;
   cursor: pointer;
   border-bottom: 5px solid rgba(0, 0, 0, 0.1);
 }
@@ -113,7 +114,7 @@ input:nth-child(5):hover {
 }
 
 #submitForm span {
-  color: #e91a16;
+  color: hsl(0, 100%, 74%);
   font-weight: 700;
 }
 
