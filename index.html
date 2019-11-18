@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js"></script>
+    <script defer src="js/script.js"></script>
     <title>Sign-up Form</title>
   </head>
   <body>
@@ -24,15 +24,38 @@
       <section id="section-b">
         <div id="free">
           <div id="pWrapper">
-            <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+            <p>
+              <span>Try it free 7 days</span>
+              then $20/mo. thereafter
+            </p>
           </div>
         </div>
         <div id="submitForm">
-          <form name="signUp" action="">
-            <input type="text" name="firstname" placeholder="First Name" required/>
-            <input type="text" name="lastname" placeholder="Last Name" required/>
-            <input type="email" name="email" placeholder="Email" required />
-            <input type="password" name="password" placeholder="Password" required/>
+          <form
+            name="signUp"
+            action="/"
+            onsubmit="return svalidateForm()"
+            method="GET"
+          >
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Last Name"
+            />
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
             <input type="submit" value="claim your free trial" />
           </form>
           <p>
@@ -47,12 +70,16 @@
     <footer>
       <div class="footerFlex">
         <p id="attribution">
-          Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
         </p>
       </div>
       <div class="footerFlex">
         <p>
-          Coded by<a href="https://twitter.com/theatosam" target="_blank">Ato Sam</a>
+          Coded by
+          <a href="https://twitter.com/theatosam" target="_blank">Ato Sam</a>
         </p>
       </div>
     </footer>
