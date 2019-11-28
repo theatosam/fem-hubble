@@ -66,6 +66,8 @@ main {
 }
 
 #submitForm {
+  width: 100%;
+  height: auto;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -80,7 +82,7 @@ input {
   padding: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 input:nth-child(5) {
@@ -117,6 +119,18 @@ input:nth-child(5):hover {
   color: hsl(0, 100%, 74%);
   font-weight: 700;
 }
+
+#signUp p {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  font-style: oblique;
+  font-size: 0.7em;
+  font-weight: 600;
+  margin: 0;
+  padding: 5px 0 0 0;
+  color: hsl(0, 100%, 74%);
+}
 /* Main Ends */
 
 /* Footer */
@@ -146,8 +160,9 @@ footer a:hover {
   color: hsl(248, 32%, 49%);
 }
 
+
 /*Desktop*/
-@media screen and (min-width: 1025px) {
+/*@media screen and (min-width: 1025px) {
   main {
     width: 100%;
     height: auto;
@@ -157,7 +172,7 @@ footer a:hover {
   }
 
   /*Section A*/
-  #section-a,
+  /*#section-a,
   #section-b {
     width: 50%;
   }
@@ -190,7 +205,7 @@ footer a:hover {
   }
 
   /*Section B*/
-  #free {
+  /*#free {
     background-color: hsl(248, 32%, 49%);
     padding: 20px;
     border-radius: 10px;
